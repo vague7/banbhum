@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.grievance_home{
+	background:#f5f5f5;
+	border:#CCC 1px solid;
+}
+#grievance_home{
+	/*background:#f5f5f5;
+	border:#CCC 1px solid;*/
+	margin-top:30px;
+	margin-bottom:30px;
+	min-height:150px;
+}
+#grievance_home h5{ font-size: 18px !important; color: #DB4F04;padding-bottom: 5px;width: 100%; border-bottom: 1px solid #DB4F04;font-family: 'oswaldregular';padding-top: 15px;padding-left: 10px;margin-bottom: 10px;letter-spacing:1px; text-transform: uppercase;}
+#grievance_home a{ color:#4f4f4e; font-size:12px; text-decoration:none;font-family: 'arialregular';}
+#grievance_home a:hover{ color:#3a3a3a; text-decoration:none;}
+#grievance_home li{ margin:10px 10px;}
+#grievance_home li:before{ content: '\f101';font-family: FontAwesome;margin-right: 10px;font-size: 15px;}
+
+.status_text a {color: #686969 !important;font-family: 'oswaldregular' !important; letter-spacing: 1px;border-bottom: 1px solid #686969;border-top: 1px solid #686969;padding: 6px 0px;}
+
+.mbottom{margin-bottom: 15px;}
+
+.status_form{ 
+	margin-top:30px; 
+	margin-bottom:30px; 
+	min-height:350px;
+	background:#f5f5f5;
+	border:#CCC 1px solid;
+	padding: 15px 0px;
+}
+.form-group {
+	margin-bottom: 10px;
+	}
+.form-group label{
+	color: #746868;
+	font-family: 'arialregular';
+	}
+.form-group input {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background: #fff;
+	text-align: left;
+	padding: 0px 8px;
+	margin: 0;
+	}
+.form-group h6{
+	font-family: 'arialregular';
+	font-size:12px !important;
+	color: #746868;
+	margin-top: 5px;
+	}
+.reset_captcha{ 
+	cursor:pointer;
+	font-family: 'arialregular';
+	font-size:12px !important;
+	}
+.cut_btn {
+	width: 160px;
+	padding: 6px;
+	text-align: center;
+	color: #fff;
+	background: #DB4F04;
+	border-radius: 0px;
+	font-family: 'arialregular';
+	font-size:13px !important;
+	margin-top: 20px;
+	position: relative;
+	left: 50%;
+	margin-left: -80px;
+	}
+.cut_btn:hover {
+	color: #fff;
+	}
+.up_text {
+	color: #fff;
+	background: #333333;
+	font-family: 'arialregular';
+	}
+.mid_text {
+	color: #fff;
+	background: #333333;
+	font-family: 'arialregular';
+	}
+.double_color:nth-child(odd) {
+	font-family: 'arialregular';
+	background: #EEEEEE;
+	color: #5F0000;
+	}
+.double_color:nth-child(even){
+	font-family: 'arialregular';
+	background: #fff;
+	color: #5F0000;
+	}
+.table {border: 1px solid #DDDDDD;}
+.lebclass {
+	float: left;
+	padding: 4px 2px;
+	color: #666;
+	font-family: 'arialregular';
+	font-size: 13px !important;
+	}
+.input_content_gen input {
+	float: right;
+	background-image: none;
+	border-radius: 0px;
+	border: 1px solid #999;
+	width: 65%;
+	padding: 4px !important;
+	color: #666;
+	}
+.input_content_gen select {
+	float: right;
+	background-image: none;
+	border-radius: 0px;
+	border: 1px solid #999;
+	width: 65%;
+	padding: 4px !important;
+	color: #666;
+	height: 34px;
+	}
+.input_content_gen:first-child {
+	margin-top: 15px;;
+	}
+.input_content_gen {
+	margin: 5px 0px;
+	}
+.input_content_gen p {
+	color: #666;
+	font-family: 'arialregular';
+	float: right;
+	margin: 8px 0px;
+	}
+.input_content_gen a{
+	color: #0D66D0 !important;
+	font-family: 'arialregular';
+	}
+.input_content_gen a:hover{
+	text-decoration: underline !important;
+	}
+.navigation_button {
+	width: 100px;
+	border-radius: 0px;
+	color: #fff;
+	padding: 2px 10px;
+	text-align: center;
+	margin-top: 12px;
+	position: relative;
+	margin-left: -50px;
+	left: 50%;
+	font-family: 'arialregular';
+	}	
+	
+
+@media screen and (max-width: 640px) {
+
+.form-group label{
+	margin-bottom: 5px;
+	}
+.table {
+	overflow-x: scroll;
+	width:600px;
+	}
+.input_content_gen input {
+	float: right;
+	background-image: none;
+	border-radius: 0px;
+	border: 1px solid #999;
+	width: 100%;
+	padding: 4px !important;
+	color: #666;
+	}
+.input_content_gen select {
+	float: right;
+	background-image: none;
+	border-radius: 0px;
+	border: 1px solid #999;
+	width: 100%;
+	padding: 4px !important;
+	color: #666;
+	height: 34px;
+	}
+.grievance_home {margin: 0 15px;}
+
+}

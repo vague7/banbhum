@@ -1,0 +1,270 @@
+body{
+    background: #FFF8F2;
+}
+
+.round_icon i{
+    border: 2px solid #C08A58;
+    color: #D7B18C;
+}
+
+.top_row{
+    background: #F6E8DA;
+    border-bottom: 1px solid #D9B89B;
+}
+
+.navbar-inverse{
+    background: #A15C20 !important;
+}
+
+.icon-bar1{
+    background-color: #A15C20;
+}
+
+.icon-bar1 a:hover{
+    background-color: #8B4F1C;
+}
+
+.font-btn{
+    background: #A15C20;
+    border-color: #FFF8F2;
+}
+
+.font-btn:hover{
+    background: #8B4F1C;
+}
+
+.counter{
+    background-color:#A15C20;
+    border-color:#FFF8F2;
+}
+
+.lower-bg{
+    background:#A15C20 !important;
+}
+
+.land-alerts{
+    background-color:#F1DFC9;
+}
+
+.dropdown-menu li{
+    border-bottom:1px solid #6F3D15 !important;
+    text-transform:none;
+    background-color:#8B4F1C !important;
+}
+
+.dropdown-menu li:hover{
+    background-color:#A15C20 !important;
+}
+
+.top_link_icon a{
+    color:#A15C20;
+}
+
+.top_link_icon a:hover{
+    color:#C8741E;
+}
+
+.back-to-top{
+    background:#A15C20;
+}
+
+#view th{
+    background-color:#6F3D15;
+}
+
+#view td,#view th{
+    border:1px solid #D9B89B;
+}
+
+#ajaxView th{
+    background-color:#6F3D15;
+}
+
+.table-text{
+    background-color:#8B4F1C;
+}
+
+.swiper-wrapper{
+    background:#F6E8DA;
+}
+
+.swiper-slide{
+    background:#F6E8DA;
+}
+
+.swiper-slide>a>i{
+    border:2px solid #C08A58;
+    color:#C08A58;
+}
+
+.swiper-slide>a{
+    color:#A15C20;
+}
+
+#mis_pending_case_header{
+    background:#A15C20 !important;
+}
+
+#headertitle{
+    background:#8B4F1C !important;
+}
+
+#bodycover{
+    background:#D9B89B !important;
+}
+
+#misStatDivId th{
+    background:#A15C20 !important;
+}
+
+#defaultUser{
+    background:#A15C20 !important;
+    color:#FFFFFF !important;
+}
+
+.round_icon i{
+    background:#A15C20 !important;
+    color:#FFFFFF;
+}
+
+#myFooter{
+    background:#A15C20 !important;
+}
+
+#myFooter .footer-copyright{
+    background:#8B4F1C !important;
+}
+
+#mrqid1{
+    background:#8B4F1C !important;
+    color:#FFFFFF !important;
+}
+
+.sitemaptree ul{
+    color:#A15C20 !important;
+}
+
+#mrqid2{
+    background:#A15C20 !important;
+    color:#FFFFFF !important;
+}
+
+.accordion__section{
+    background:#A15C20 !important;
+}
+
+.accordion__titlebox_active,
+.accordion__titlebox:hover{
+    background:#6F3D15 !important;
+}
+
+#cssmenu>ul>li.active>a{
+    background:#A15C20 !important;
+}
+
+#cssmenu>ul>li.open>a{
+    background:#6F3D15 !important;
+}
+
+#cssmenu ul ul li a{
+    background:#D9B89B !important;
+}
+
+#csmenu>ul>li>a{
+    background:#A15C20 !important;
+}
+
+#csmenu>ul>li>a:hover,
+#csmenu>ul>li.open>a{
+    background:#6F3D15 !important;
+}
+
+#csmenu ul ul li a{
+    background:#D9B89B !important;
+}
+
+.simple-marquee-container{
+    background-color:#A15C20;
+}
+
+#popup_container{
+    background:#FFFFFF !important;
+    border:5px solid #A15C20 !important;
+}
+
+#popup_title{
+    background:#A15C20 !important;
+    border:1px solid #A15C20 !important;
+}
+
+#popup_container INPUT[type="button"]{
+    background:#A15C20 !important;
+    border:2px outset #A15C20 !important;
+}
+
+#cover_container{
+    background:#D9B89B !important;
+}
+
+.hvr-underline-from-center::before{
+    background:#F8D9B5 !important;
+}
+
+#cssmenu ul ul ul li a{
+    background:#C99668 !important;
+}
+
+#cssmenu ul ul ul ul li a{
+    background:#A87444 !important;
+}
+
+#cssmenu>ul>li>a{
+    border-top:none;
+}
+
+/* ===== Mobile Menu Theme ===== */
+
+@media (max-width: 767px){
+
+    .navbar-inverse{
+        background:#A15C20 !important;
+        border-color:#A15C20 !important;
+    }
+
+    .navbar-inverse .navbar-collapse{
+        background:#A15C20 !important;
+    }
+
+    .navbar-inverse .navbar-nav{
+        background:#A15C20 !important;
+    }
+
+    .navbar-inverse .navbar-nav > li{
+        background:#A15C20 !important;
+        border-bottom:1px solid #8B4F1C !important;
+    }
+
+    .navbar-inverse .navbar-nav > li > a{
+        background:#A15C20 !important;
+        color:#FFFFFF !important;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus{
+        background:#8B4F1C !important;
+        color:#FFFFFF !important;
+    }
+
+    .navbar-inverse .dropdown-menu{
+        background:#8B4F1C !important;
+    }
+
+    .navbar-inverse .dropdown-menu > li > a{
+        color:#FFFFFF !important;
+        background:#8B4F1C !important;
+    }
+
+    .navbar-inverse .dropdown-menu > li > a:hover{
+        background:#6F3D15 !important;
+    }
+}

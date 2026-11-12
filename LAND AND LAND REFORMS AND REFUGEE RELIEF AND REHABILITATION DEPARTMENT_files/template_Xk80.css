@@ -1,0 +1,722 @@
+.theme-default .nivoSlider img {display: block;position: absolute;}
+
+/****** LOGIN MODAL ******/
+
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+  font-family:oswaldregular;
+}
+.captcharefresh button
+{
+  width: 20%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  height: 30px;
+}
+.loginmodal-container input[type=text], input[type=password] {
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=pass] {
+  height: 34px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #A15C20;
+  padding: 1px 1px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#A15C20), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #8B4F1C;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#A15C20), to(#8B4F1C)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #A15C20;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+
+
+/****** Admin SignUp Model ******/
+.admin-loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.admin-loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.admin-loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.admin-loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.admin-loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.admin-loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.admin-loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #A15C20;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.admin-loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #8B4F1C;
+}
+
+.admin-loginmodal-container a {
+  text-decoration: none;
+  color: #A15C20;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.admin-login-help{
+  font-size: 12px;
+}
+
+
+/****** SignUp MODAL ******/
+.signupmodal-container {
+  padding: 30px;
+  max-width: 800px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.signupmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+  font-family:oswaldregular;
+}
+
+
+.banglamap-container {
+  padding: 30px;
+  max-width: 600px;
+  width: 100% !important;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+/****** FORGOT PASS MODAL ******/
+.forgotmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.forgotmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+  font-family:oswaldregular;
+}
+.captcharefresh button
+{
+  width: 20%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.forgotmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.forgotmodal-container input[type=text], input[type=password] {
+  height: 30px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.forgotmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.forgotmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.forgotmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #A15C20;
+  padding: 17px 17px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#A15C20), to(#4787ed)); */
+}
+
+.forgotmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #8B4F1C;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#A15C20), to(#8B4F1C)); */
+}
+
+.forgotmodal-container a {
+  text-decoration: none;
+  color: #A15C20;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+/************* INFORMATION MODAL***************/
+
+
+#information-modal {
+  max-width: 350px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  height: 350px;
+}
+
+.information-modal-container {
+  max-width: 350px;
+  height: 100px;
+  font-family: roboto;
+}
+
+.informationDiv{
+	text-align: center;
+	font-size: 14px;
+  	font-family: 'Arial', sans-serif;
+  	color:red;
+  	padding-top: 20px; 
+}
+
+
+/**********IMAGE MODAL**********/
+
+.image {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.image:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	opacity: 0.7;
+}
+
+/* The Modal (background) */
+.image-modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 50px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.image-modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	max-height: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation */
+.image-modal-content, #caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+
+/****** DATA TABLE VIEW ********/
+
+#view {
+	/* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+	border-collapse: collapse;
+	width: 100%;
+	overflow:auto;
+}
+
+#view td, #view th {
+	/* border: 1px solid black; */
+	padding: 1px;
+	text-align: center;
+	word-wrap: break-word; 
+}
+
+#view tr:nth-child(even) {
+	background-color: #f2f2f2;
+	border: 1px solid black;
+}
+
+#view tr:hover {
+	background-color: #ddd;
+}
+
+#view th {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	/* background-color: #2F5B93; */
+	color: white;
+}
+
+
+/****** DATA TABLE AJAX VIEW ********/
+
+#ajaxView {
+	/* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; */
+	border-collapse: collapse;
+	width: 100%;
+	overflow:auto;	
+}
+
+#ajaxView td, #ajaxView th {
+	border: 1px solid black;
+	padding: 1px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#ajaxView tr:nth-child(even) {
+	background-color: #f2f2f2;
+	border: 1px solid black;
+}
+
+#ajaxView tr:hover {
+	background-color: #ddd;
+}
+
+#ajaxView th {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	/* background-color: #2F5B93; */
+	/* color: white; */
+}
+
+/********* MENU TABLE VIEW(OPTION)*****************/
+
+#customers {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 70%;
+}
+
+#customers td, #customers th {
+	width: 70%;
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #000080;
+	color: white;
+}
+
+
+
+
+
+
+
+/* ===== Orange Theme Additions ===== */
+.loginmodal-container input[type=text]:focus,
+.loginmodal-container input[type=password]:focus,
+.admin-loginmodal-container input[type=text]:focus,
+.admin-loginmodal-container input[type=password]:focus,
+.forgotmodal-container input[type=text]:focus,
+.forgotmodal-container input[type=password]:focus{
+    border:1px solid #A15C20;
+    box-shadow:0 0 6px rgba(161,92,32,.35);
+    outline:none;
+}
+
+.loginmodal-container a:hover,
+.admin-loginmodal-container a:hover,
+.forgotmodal-container a:hover{
+    color:#8B4F1C;
+}
+
+input[type="radio"]{
+    accent-color:#A15C20;
+}
+
+/**************** Orange Theme Login Inputs ****************/
+
+.loginmodal-container input[type="text"],
+.loginmodal-container input[type="password"],
+.admin-loginmodal-container input[type="text"],
+.admin-loginmodal-container input[type="password"],
+.forgotmodal-container input[type="text"],
+.forgotmodal-container input[type="password"]{
+    background:#FFF8F2 !important;
+    border:1px solid #D9B89B !important;
+    color:#333333 !important;
+}
+
+/* Hover */
+.loginmodal-container input[type="text"]:hover,
+.loginmodal-container input[type="password"]:hover,
+.admin-loginmodal-container input[type="text"]:hover,
+.admin-loginmodal-container input[type="password"]:hover,
+.forgotmodal-container input[type="text"]:hover,
+.forgotmodal-container input[type="password"]:hover{
+    background:#FFFDFB !important;
+    border:1px solid #C08A58 !important;
+}
+
+/* Focus */
+.loginmodal-container input[type="text"]:focus,
+.loginmodal-container input[type="password"]:focus,
+.admin-loginmodal-container input[type="text"]:focus,
+.admin-loginmodal-container input[type="password"]:focus,
+.forgotmodal-container input[type="text"]:focus,
+.forgotmodal-container input[type="password"]:focus{
+    background:#FFFFFF !important;
+    border:1px solid #A15C20 !important;
+    box-shadow:0 0 6px rgba(161,92,32,.35) !important;
+    outline:none;
+}
+
+/**************** Chrome / Edge Autofill ****************/
+
+.loginmodal-container input:-webkit-autofill,
+.loginmodal-container input:-webkit-autofill:hover,
+.loginmodal-container input:-webkit-autofill:focus,
+.loginmodal-container input:-webkit-autofill:active,
+.admin-loginmodal-container input:-webkit-autofill,
+.admin-loginmodal-container input:-webkit-autofill:hover,
+.admin-loginmodal-container input:-webkit-autofill:focus,
+.admin-loginmodal-container input:-webkit-autofill:active,
+.forgotmodal-container input:-webkit-autofill,
+.forgotmodal-container input:-webkit-autofill:hover,
+.forgotmodal-container input:-webkit-autofill:focus,
+.forgotmodal-container input:-webkit-autofill:active{
+
+    -webkit-text-fill-color:#333333 !important;
+    -webkit-box-shadow:0 0 0 1000px #FFF8F2 inset !important;
+    box-shadow:0 0 0 1000px #FFF8F2 inset !important;
+    transition:background-color 99999s ease-in-out 0s;
+}
+
+/* Primary */
+.btn-primary{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+    color:#fff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+}
+
+/* Info */
+.btn-info{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+    color:#fff !important;
+}
+
+.btn-info:hover,
+.btn-info:focus{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+}
+
+/* Success */
+.btn-success{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+    color:#fff !important;
+}
+
+.btn-success:hover,
+.btn-success:focus{
+    background:#2E7D32 !important;
+    border-color:#2E7D32 !important;
+}
+
+/* Warning */
+.btn-warning{
+    background:#F9A825 !important;
+    border-color:#F9A825 !important;
+    color:#fff !important;
+}
+
+.btn-warning:hover,
+.btn-warning:focus{
+    background:#F9A825 !important;
+    border-color:#F9A825 !important;
+}
+
+/* Danger */
+.btn-danger{
+    background:#C62828 !important;
+    border-color:#C62828 !important;
+    color:#fff !important;
+}
+
+.btn-danger:hover{
+    background:#A61E1E !important;
+    border-color:#A61E1E !important;
+}
+
+input,
+textarea,
+select,
+.form-control,
+.form-select{
+    transition: all .25s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.form-control:focus,
+.form-select:focus{
+    border-color: #A15C20 !important;
+    background-color: #FCF4ED !important;
+    box-shadow:
+        0 0 0 3px rgba(161,92,32,.10),
+        0 2px 8px rgba(161,92,32,.15) !important;
+    outline: none !important;
+}
+
+/* All Select Boxes */
+select,
+.form-control select,
+select.form-control{
+    border:1px solid #A15C20 !important;
+    border-radius:6px !important;
+    background:#fff !important;
+    color:#333 !important;
+    transition:all .25s ease;
+}
+
+/* Focus */
+select:focus,
+select.form-control:focus{
+    border-color:#A15C20 !important;
+    background:#FCF4ED !important;
+    box-shadow:0 0 0 3px rgba(161,92,32,.10),
+               0 2px 8px rgba(161,92,32,.15) !important;
+    outline:none !important;
+}
+
+/* Option */
+select option{
+    color:#333;
+    background:#fff;
+}
